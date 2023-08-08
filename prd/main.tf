@@ -1,5 +1,5 @@
 module "vm" {
     source = "../modules/vm"
-    prefix = "qa"
+    prefix = "prd"
     location = "eastus"
 }

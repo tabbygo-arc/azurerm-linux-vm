@@ -1,9 +1,5 @@
-provider "azurerm" {
-  features {}
-}
-
 module "vm" {
-    source = "../"
+    source = "../modules/vm"
     prefix = "dev"
     location = "eastus2"
 }
